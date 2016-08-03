@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		EE1C903E1CC8D47800FBEBF3 /* Mediator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE1C903D1CC8D47800FBEBF3 /* Mediator.h */; };
 		EE1C90401CC8D47800FBEBF3 /* Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1C903F1CC8D47800FBEBF3 /* Mediator.m */; };
+		EED5D19E1D51F525006FABBA /* MediatorNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = EED5D19D1D51F525006FABBA /* MediatorNavigator.m */; };
+		EED5D1A41D5229CB006FABBA /* MediatorTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED5D1A31D5229CB006FABBA /* MediatorTipViewController.m */; };
+		EED5D1A71D52374F006FABBA /* UIViewController+NavigationTip.m in Sources */ = {isa = PBXBuildFile; fileRef = EED5D1A61D52374F006FABBA /* UIViewController+NavigationTip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,13 @@
 		EE1C903A1CC8D47800FBEBF3 /* libMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1C903D1CC8D47800FBEBF3 /* Mediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mediator.h; sourceTree = "<group>"; };
 		EE1C903F1CC8D47800FBEBF3 /* Mediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mediator.m; sourceTree = "<group>"; };
+		EED5D19C1D51F525006FABBA /* MediatorNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediatorNavigator.h; sourceTree = "<group>"; };
+		EED5D19D1D51F525006FABBA /* MediatorNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediatorNavigator.m; sourceTree = "<group>"; };
+		EED5D19F1D51FFD6006FABBA /* MediatorConnectorPrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediatorConnectorPrt.h; sourceTree = "<group>"; };
+		EED5D1A21D5229CB006FABBA /* MediatorTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediatorTipViewController.h; sourceTree = "<group>"; };
+		EED5D1A31D5229CB006FABBA /* MediatorTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediatorTipViewController.m; sourceTree = "<group>"; };
+		EED5D1A51D52374F006FABBA /* UIViewController+NavigationTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationTip.h"; sourceTree = "<group>"; };
+		EED5D1A61D52374F006FABBA /* UIViewController+NavigationTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationTip.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,13 @@
 			children = (
 				EE1C903D1CC8D47800FBEBF3 /* Mediator.h */,
 				EE1C903F1CC8D47800FBEBF3 /* Mediator.m */,
+				EED5D19C1D51F525006FABBA /* MediatorNavigator.h */,
+				EED5D19D1D51F525006FABBA /* MediatorNavigator.m */,
+				EED5D19F1D51FFD6006FABBA /* MediatorConnectorPrt.h */,
+				EED5D1A21D5229CB006FABBA /* MediatorTipViewController.h */,
+				EED5D1A31D5229CB006FABBA /* MediatorTipViewController.m */,
+				EED5D1A51D52374F006FABBA /* UIViewController+NavigationTip.h */,
+				EED5D1A61D52374F006FABBA /* UIViewController+NavigationTip.m */,
 			);
 			path = Mediator;
 			sourceTree = "<group>";
@@ -122,6 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EED5D1A71D52374F006FABBA /* UIViewController+NavigationTip.m in Sources */,
+				EED5D1A41D5229CB006FABBA /* MediatorTipViewController.m in Sources */,
+				EED5D19E1D51F525006FABBA /* MediatorNavigator.m in Sources */,
 				EE1C90401CC8D47800FBEBF3 /* Mediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +268,7 @@
 				EE1C90451CC8D47800FBEBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
